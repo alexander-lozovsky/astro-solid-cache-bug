@@ -1,15 +1,19 @@
 {
-	"name": "astro-solid-cache-bug",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"astro": "^2.0.14"
-	}
+  "name": "astro-solid-cache-bug",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "node ./server.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^5.0.3",
+    "@astrojs/solid-js": "^2.0.2",
+    "astro": "^2.0.14",
+    "express": "^4.18.2",
+    "solid-js": "^1.6.11"
+  }
 }
